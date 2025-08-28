@@ -31,8 +31,6 @@ The Reddit Data Reporting Analysis Learning Application is an innovative platfor
 
 - **Google GenAI**: An integration that leverages artificial intelligence capabilities to enhance user interactions and provide intelligent feedback on reports.
 
-Sure! Here’s the revised implementation steps tailored for your Reddit data project:
-
 ## Implementation Steps
 1. **API Key Retrieval**: Securely obtain the API key necessary for accessing the Reddit API.
 
