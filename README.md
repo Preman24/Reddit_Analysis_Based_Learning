@@ -65,3 +65,8 @@ This application is ideal for data analysts, researchers, students, and anyone i
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
 3. **Run the Docker Container**: Start the application by running `docker run -p <port_number>:<port_number> <image_name>`, replacing `<port_number>` with the desired port for accessing the application and click the local URL.
+
+
+## Minor modications to be completed:
+1. change pie chart visualisation wordings
+2. change line graph ylabels 
