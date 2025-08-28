@@ -1,0 +1,12 @@
+streamlit == 1.40.2
+agno
+wordcloud == 1.9.4
+pandas
+numpy
+matplotlib
+vaderSentiment
+nltk
+datetime
+praw
+streamlit_option_menu
+google-genai
