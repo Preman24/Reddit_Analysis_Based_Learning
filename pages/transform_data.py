@@ -13,10 +13,10 @@ IMAGE_PATH = BASE_DIR / "image" / "data_clean.png"
 
 # Define the data transformation page
 def transform_data_page():
-    col1, col2 = st.columns([0.3, 5])  # Adjust the first column to be narrower
+    col1, col2 = st.columns([1, 5], vertical_alignment="center", gap="medium")
     
     with col1:
-        st.image(str(IMAGE_PATH), width=200)  # Adjust width as needed
+        st.image(str(IMAGE_PATH), width=300)  # Adjust width as needed
 
     with col2:
         st.markdown("<h1 style='margin: 0; display: inline;'>Data Preprocessing and Transformation</h1>", unsafe_allow_html=True)

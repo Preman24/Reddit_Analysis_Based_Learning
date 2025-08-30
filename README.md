@@ -5,7 +5,7 @@ The Reddit Data Reporting Learning Application is an innovative platform designe
 
 ## Reddit Application Review
 <div align="center">
-  <img src="image/Reddit_Application.png" width="1000px" alt="Reddit Application Preview">
+  <img src="image/Reddit_App.png" width="1000px" alt="Reddit Application Preview">
 </div>
 
 ### Technical Stack

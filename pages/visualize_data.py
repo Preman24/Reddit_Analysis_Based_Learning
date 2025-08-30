@@ -129,10 +129,10 @@ def visualization_page():
     flair_options = st.sidebar.selectbox("Select Flair Category", list(df.keys()))
     selected_data = df[flair_options]
     
-    col1, col2 = st.columns([0.3, 5])  # Adjust the first column to be narrower
+    col1, col2 = st.columns([1, 5], vertical_alignment="center", gap="medium")
 
     with col1:
-        st.image(str(IMAGE_PATH), width=200)
+        st.image(str(IMAGE_PATH), width=300)
 
     with col2:
         st.markdown("<h1 style='margin: 0; display: inline;'>Reddit Visualization and Analysis by {}</h1>".format(flair_options), unsafe_allow_html=True)

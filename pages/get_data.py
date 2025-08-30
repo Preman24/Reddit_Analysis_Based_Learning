@@ -13,10 +13,10 @@ IMAGE_PATH = BASE_DIR / "image" / "data_collect.png"
 
 # Define the data retrieval page
 def retrieval_data_page():
-    col1, col2 = st.columns([0.3, 5])  # Adjust the first column to be narrower
+    col1, col2 = st.columns([1, 5], vertical_alignment="center", gap="medium")
 
     with col1:
-        st.image(str(IMAGE_PATH), width=200) 
+        st.image(str(IMAGE_PATH), width=300)
 
     with col2:
         st.markdown("<h1 style='margin: 0; display: inline;'>Reddit Data Retrieval</h1>", unsafe_allow_html=True)
