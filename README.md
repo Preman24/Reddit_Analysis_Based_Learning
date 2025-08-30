@@ -65,17 +65,17 @@ This application is ideal for data analysts, researchers, students, and anyone i
 2. **Prepare your enviroment**: create a .env file with this format in this project structure
 
 ```yaml
-CLIENT_SECRET=
-PASSWORD=
-USER_NAME=
-USER_AGENT=
-AI_API_KEY=
+client_id=Retrieve_from_Reddit_developer
+client_secret=Retrieve_from_Reddit_developer
+password=Your_Reddit_Account_Passowrd
+user_name=Your_Reddit_Account_Username
+user_agent=Agent_Name_of_Your_Choice
+AI_API_KEY=Retrieve_API_key_from_Gemini
 ```
 
-2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
+3. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
-3. **Run the Docker Container**: Start the application by running `docker run -p <port_number>:<port_number> <image_name>`, replacing `<port_number>` with the desired port for accessing the application and click the local URL.
-
+4. **Run the Docker Container**: Start the application by running `docker run -p <port_number>:<port_number> <image_name>`, replacing `<port_number>` with the desired port for accessing the application and click the local URL.
 
 
 ## Minor modications to be completed:

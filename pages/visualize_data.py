@@ -113,7 +113,8 @@ def generate_line_graph(x,y,x_title,y_title):
     plt.plot(x, y)
     plt.xlabel(x_title)
     plt.ylabel(y_title)
-    plt.xticks(rotation=45)
+    x_ticks = plt.xticks()[0] 
+    plt.xticks(x_ticks[::len(x_ticks)//5], rotation=45)
     plt.grid()
     plt.tight_layout()
     st.pyplot(plt)
@@ -211,7 +212,7 @@ def visualization_page():
                 flair_counts.append(values['flair_count'])
         st.subheader("Percentage of Posts by Flair Category")
         plt.figure(figsize=(10, 5))
-        plt.pie(labels=flair_categories, x=flair_counts, autopct='%1.1f%%')
+        plt.pie(labels=flair_categories, x=flair_counts, autopct='%1.1f%%', textprops={'fontsize': 8})
         st.pyplot(plt)
         flair_counts = f"Number of posts by category: {dict(zip(flair_categories, flair_counts))}"
     else:
