@@ -1,4 +1,4 @@
-# Reddit Data Reporting Analysis Leraning Application
+# Reddit Data Reporting Analysis Leraning Application ![Reddit icon] (C:\Users\user\Downloads\Reddit\image\reddit.png)
 
 ## Overview
 The Reddit Data Reporting Analysis Learning Application is an innovative platform designed to help users master the art of reporting data analysis results. This application serves both novices and seasoned analysts by providing a structured learning experience focused on effective data reporting with AI-driven feedback. Whether you're looking to improve your reporting skills or learn from real-world examples, this application is the perfect tool for your journey.
@@ -58,7 +58,7 @@ The Reddit Data Reporting Analysis Learning Application is an innovative platfor
 ## Target Audience
 This application is ideal for data analysts, researchers, students, and anyone interested in enhancing their data reporting skills. It provides a user-friendly interface that caters to varying levels of expertise, making it accessible for all.
 
-## To Run the Application
+## To Use the Application
 
 1. **Clone the Repository**: Use the command `git clone <repository URL>` to download the application code to your local machine.
 
@@ -77,7 +77,8 @@ AI_API_KEY=Retrieve_API_key_from_Gemini
 
 4. **Run the Docker Container**: Start the application by running `docker run -p <port_number>:<port_number> <image_name>`, replacing `<port_number>` with the desired port for accessing the application and click the local URL.
 
+5. **Data Retrieval**: Type in your desired subreddit name and the number of posts you would like to choose
 
-## Minor modications to be completed:
-1. change pie chart visualisation wordings
-2. change line graph ylabels 
+6. **Data Transformation**: You will be shown a preview of the raw data and a button to for data cleaning, press the button to clean the data and it will show you a preview of the clean data afterwards
+
+7. **Data Visualisation**: There will be a bunch of visualisation graphs that shows the data in different format and after analysing the graphs, there will be a text area which allows you to input the text that interprets the data. After you are done, you can click the button 'check summary' to get feedback from the AI
