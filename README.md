@@ -64,28 +64,12 @@ This application is ideal for data analysts, researchers, students, and anyone i
 
 2. **Prepare your enviroment**: create a .env file with this format in this project structure
 
-CLIENT_ID=
-
+```yaml
 CLIENT_SECRET=
 PASSWORD=
 USER_NAME=
 USER_AGENT=
 AI_API_KEY=
-
-
-Here’s an example of how your configuration might look in the GitHub Actions workflow:
-
-```yaml
-- name: Create .env File
-  uses: your-action/repo@version
-  with:
-    envkey_DEBUG: false
-    envkey_SOME_API_KEY: "123456abcdef"
-    envkey_SECRET_KEY: ${{ secrets.PASSWORD_SECRET }}
-    directory: env
-    file_name: .env
-    fail_on_empty: true
-    sort_keys: true
 ```
 
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
