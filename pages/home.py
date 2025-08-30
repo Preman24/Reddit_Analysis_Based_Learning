@@ -16,7 +16,7 @@ def home_page():
     
     st.write("""
     <div style="text-align: Justify;font-size: 20px;">
-    Welcome to the Reddit Learning Application! This platform is designed to help you explore and analyze data from Reddit, one of the largest online communities. 
+    Welcome to the Reddit Data Reporting Learning Application! This platform is designed to help you explore and analyze data from Reddit, one of the largest online communities. 
     Whether you're a data enthusiast, researcher, or just curious about social media trends, this application provides you with the tools to retrieve, transform, and visualize Reddit data effectively.
     Navigate through the different sections using the sidebar menu. Start by retrieving data from your favorite subreddits, then move on to transforming and cleaning that data for better analysis. Finally, visualize the insights you've uncovered with interactive charts and graphs.
     Let's dive in and discover what Reddit has to offer!
