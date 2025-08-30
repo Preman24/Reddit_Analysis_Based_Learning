@@ -72,9 +72,20 @@ USER_NAME=
 USER_AGENT=
 AI_API_KEY=
 
-| Key                     | Description                                                                                          |
-|------------------------|------------------------------------------------------------------------------------------------------|
-| `envkey_DEBUG`        | This will be added to the `.env` file as `DEBUG`. Value can be anything.                           |
+
+Here’s an example of how your configuration might look in the GitHub Actions workflow:
+
+```yaml
+- name: Create .env File
+  uses: your-action/repo@version
+  with:
+    envkey_DEBUG: false
+    envkey_SOME_API_KEY: "123456abcdef"
+    envkey_SECRET_KEY: ${{ secrets.PASSWORD_SECRET }}
+    directory: env
+    file_name: .env
+    fail_on_empty: true
+    sort_keys: true
 
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
