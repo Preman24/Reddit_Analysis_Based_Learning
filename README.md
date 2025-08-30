@@ -62,15 +62,14 @@ This application is ideal for data analysts, researchers, students, and anyone i
 
 1. **Clone the Repository**: Use the command `git clone <repository URL>` to download the application code to your local machine.
 
-2. **Prepare your enviroment**: 
-`
-client_id='F1BeFIAnXy0L4rZSllg2iw'
-client_secret='D3DJh-LuWqGox7xi8_sY20-xSU39og'
-password='1234Preman'
-user_name='Alternative-Oil2132'
-user_agent='Scrape_data'
-AI_API_KEY='AIzaSyB-Sd8zK4Jy1T8b0J1IHvguyqETvcZ1lZA'
-`
+2. **Prepare your enviroment**: create a .env file with this format in this project structure
+
+CLIENT_ID=
+CLIENT_SECRET=
+PASSWORD=
+USER_NAME=
+USER_AGENT=
+AI_API_KEY=
 
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
