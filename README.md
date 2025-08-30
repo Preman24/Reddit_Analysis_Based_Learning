@@ -1,4 +1,4 @@
-# Reddit Data Reporting Analysis Leraning Application ![Reddit icon] (C:\Users\user\Downloads\Reddit\image\reddit.png)
+# Reddit Data Reporting Analysis Leraning Application
 
 ## Overview
 The Reddit Data Reporting Analysis Learning Application is an innovative platform designed to help users master the art of reporting data analysis results. This application serves both novices and seasoned analysts by providing a structured learning experience focused on effective data reporting with AI-driven feedback. Whether you're looking to improve your reporting skills or learn from real-world examples, this application is the perfect tool for your journey.
