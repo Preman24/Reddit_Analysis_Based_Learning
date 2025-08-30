@@ -86,6 +86,7 @@ Here’s an example of how your configuration might look in the GitHub Actions w
     file_name: .env
     fail_on_empty: true
     sort_keys: true
+```
 
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
