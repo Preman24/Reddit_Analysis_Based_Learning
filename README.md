@@ -65,11 +65,16 @@ This application is ideal for data analysts, researchers, students, and anyone i
 2. **Prepare your enviroment**: create a .env file with this format in this project structure
 
 CLIENT_ID=
+
 CLIENT_SECRET=
 PASSWORD=
 USER_NAME=
 USER_AGENT=
 AI_API_KEY=
+
+| Key                     | Description                                                                                          |
+|------------------------|------------------------------------------------------------------------------------------------------|
+| `envkey_DEBUG`        | This will be added to the `.env` file as `DEBUG`. Value can be anything.                           |
 
 2. **Build the Docker Image**: Execute the command `docker build -t <image_name> .` to create a Docker image for the application.
 
